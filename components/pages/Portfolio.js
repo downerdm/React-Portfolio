@@ -20,7 +20,7 @@ export default function Portfolio() {
           <h5 class="card-title">Reddit Data Dive</h5>
       </div>
       <div>
-          <img class="card-img-top" src="./assets/images/RedditDataDive.png" alt="Reddit Project Image">
+          <img class="card-img-top" src="" alt="Reddit Project Image">
           <a href="https://downerdm.github.io/reddit-data-dive_dmd/" class="card-link cardLinkCustom">Deployed App</a>
           <a href="https://github.com/AmyWilhoite/reddit-data-dive" class="card-link cardLinkCustom">GitHub Repo</a>
       </div>
