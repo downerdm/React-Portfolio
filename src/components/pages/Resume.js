@@ -1,24 +1,51 @@
 import React from 'react';
+import ResumePdf from '../../assets/files/DownerResume_2022.pdf'
+import '../../assets/css/style.css'
 
 export default function Resume() {
   return (
+    <body>
     <div>
       <h1>Resume Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <p>Click here to download my resume</p>
+      <h3>Certifications</h3>
+        <h4>Currently enrolled in the Georgia Tech Coding Boot Camp</h4>
+          <p class="technology">
+          <span>Browser-Based Technologies: </span>HTML, CSS, JavaScript, jQuery, Responsive Design, Bootstrap, Progressive Web Applications (PWAs), React.js
+          </p>
+          <p class="technology">
+            <span>API Design: </span>Client-Server Model, API, REST, JSON, AJAX
+          </p>
+          <p class="technology">
+            <span>Databases: </span>MySQL, MongoDB
+          </p>
+          <p class="technology">
+            <span>Deployment & Delivery: </span>Heroku, Git, GitHub
+          </p>
+        <h3>Multilingual World Language Teacher</h3>
+        <h4>Education</h4>
+        <ul class="education">
+          <li>
+          <strong>Master of Education in Latin</strong>  <em>University of North Carolina</em> Greensboro in Greensboro, NC
+          </li>
+          <li>
+          <strong>Master of Arts</strong>  <em>Elliott School of International Affairs, George Washington University</em> in Washington, DC 
+           </li>
+           <li>
+            <strong>Bachelor of Arts</strong>	<em>George Washington University</em> in Washington, DC  (Summa cum laude)
+            </li>
+        </ul>
+        <h4>Work Experience</h4>
+        <ul class="education">
+          <li>
+          <strong>Shiloh Middle School</strong>  <em>Snellville, GA</em> 2020-Present
+          </li>
+          <li>
+          <strong>Berkmar High School</strong>  <em>Lilburn, GA</em> 2015-2020
+           </li>
+          <strong>Peachtree Middle School</strong>	<em>Dunwoody, GA</em> 2004-2015
+        </ul>
     </div>
+    </body>
   );
 }
