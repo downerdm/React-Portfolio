@@ -9,7 +9,7 @@ import RegExGist from '../../assets/images/RegExGist_DMD.png';
 export default function Portfolio() {
   return (
     <div>
-      <h1>Portfolio Page</h1>
+      <h2>Portfolio</h2>
       <div class="card flexcard">
       <div class="card-body">
           <h5 class="card-title">Find-A-Doc</h5>
