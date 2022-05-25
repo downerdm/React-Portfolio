@@ -5,15 +5,15 @@ import DayPlanner from '../../assets/images/DayPlanner.png';
 import FiveDayWeather from '../../assets/images/5DayWeather.png';
 import PasswordGenerator from '../../assets/images/PwdGen_DMD.png';
 import RegExGist from '../../assets/images/RegExGist_DMD.png';
+import '../../assets/css/style.css'
 
 export default function Portfolio() {
   return (
     <div>
       <h2>Portfolio</h2>
-      <div class="card flexcard">
-      <div class="card-body">
-          <h5 class="card-title">Find-A-Doc</h5>
-      </div>
+      <div className = "card-columns">
+      <div class="card flexcard border-dark mb-10">
+          <h5>Find-A-Doc</h5>
       <div>
           <img src={FindADoc} alt="" />
           <a href="https://find-a-doc.herokuapp.com/login" class="card-link cardLinkCustom">Deployed App</a>
@@ -21,10 +21,8 @@ export default function Portfolio() {
       </div>
     </div>
 
-     <div class="card flexcard">
-      <div class="card-body">
+     <div class="card flexcard border-dark mb-10">
           <h5 class="card-title">Reddit Data Dive</h5>
-      </div>
       <div>
         <img src={RedditDataDive} alt="" />
         <a href="https://downerdm.github.io/reddit-data-dive_dmd/" class="card-link cardLinkCustom">Deployed App</a>
@@ -32,10 +30,8 @@ export default function Portfolio() {
       </div>
     </div>
   
-    <div class="card flexcard">
-      <div class="card-body">
+    <div class="card flexcard border-dark mb-10">
           <h5 class="card-title">Day Planner</h5>
-       </div>
        <div>
         <img src={DayPlanner} alt="" />
           <a href="https://downerdm.github.io/workday-planner/" class="card-link cardLinkCustom">Deployed App</a>
@@ -43,10 +39,8 @@ export default function Portfolio() {
        </div>
       </div>
       
-      <div class="card flexcard">
-        <div class="card-body">
+      <div class="card flexcard border-dark mb-10">
           <h5 class="card-title">5-Day Weather Forecast</h5>
-        </div>
         <div>
           <img src={FiveDayWeather} alt="" />
           <a href="https://downerdm.github.io/weather-dashboard/" class="card-link cardLinkCustom">Deployed App</a>
@@ -54,10 +48,8 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div class="card flexcard">
-        <div class="card-body">
+      <div class="card flexcard border-dark mb-10">
           <h5 class="card-title">Password Generator</h5>
-        </div>
         <div>
           <img src={PasswordGenerator} alt="" />
           <a href="https://downerdm.github.io/password-generator/" class="card-link cardLinkCustom">Deployed App</a>
@@ -65,15 +57,14 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div class="card flexcard">
-        <div class="card-body">
+      <div class="card flexcard border-dark mb-10">
           <h5 class="card-title">Regex Gist</h5>
-        </div>
         <div>
           <img src={RegExGist} alt="" />
           <a href="https://gist.github.com/downerdm/54d4c68fcd30caeb2639f0f8c514b431" class="card-link cardLinkCustom">GitHub Gist</a>
         </div>
       </div>
+    </div>
     </div>
   );
 }

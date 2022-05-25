@@ -15,3 +15,11 @@ h1 {
   display: inline-block;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+h5 {
+  color: whitesmoke;
+  padding: 20px;
+  font-size:large;
+  offset-distance: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
