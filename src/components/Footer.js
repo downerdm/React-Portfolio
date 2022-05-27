@@ -1,5 +1,9 @@
 import React from 'react';
+import emailEmoji from "../assets/images/email_emoji.png";
 
+// function emailBtn {
+//   return 
+// }
 export default function Footer() {
   return (
     // <div>
@@ -28,17 +32,15 @@ export default function Footer() {
 
     <footer class="text-center text-lg-start">
       <div class="container d-flex justify-content-center py-5">
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2">
-          <i class="fab fa-facebook-f"></i>
+        <button type="button" id="emailBtn" class="btn btn-primary btn-lg btn-floating mx-2">
+          <img src={emailEmoji} />
+          <a href="mailto:downerdm@gmail.com" />
         </button>
         <button type="button" class="btn btn-primary btn-lg btn-floating mx-2">
-          <i class="fab fa-youtube"></i>
+          <i class="fab fa-github"></i>
         </button>
         <button type="button" class="btn btn-primary btn-lg btn-floating mx-2">
           <i class="fab fa-instagram"></i>
-        </button>
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2">
-          <i class="fab fa-twitter"></i>
         </button>
       </div>
   

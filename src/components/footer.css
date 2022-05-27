@@ -2,19 +2,20 @@ footer {
     background-color: #db6930;
 }
 
-button {
-    background-color: #54456b;
+#emailBtn {
+    background-color: black;
+    height: 10px;
 }
 
 /* https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
     .fa-linkedin {
-    background: #007bb5;
+    background: black;
     color: white;
     }
 
 /* https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
     .fa-instagram {
-    background: #125688;
+    background: black;
     color: white;
     }
 
