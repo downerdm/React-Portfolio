@@ -7,8 +7,8 @@ export default function Resume() {
     <body>
     <div>
       <div>
-      <h2>Resume</h2>
-      <a href={ResumePdf}>(Click here to download my resume)</a>
+        <h2>Resume</h2>
+        <a href={ResumePdf}>(Click here to download my complete resume)</a>
       </div>
       <h3>Certifications</h3>
         <h4>Currently enrolled in the Georgia Tech Coding Boot Camp</h4>
