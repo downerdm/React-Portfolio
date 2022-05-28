@@ -1,11 +1,7 @@
-footer {
-    background-color: #db6930;
-}
-
-#emailBtn {
-    background-color: black;
-    height: 10px;
-}
+.footer {
+    background-color: darkgray !important;
+      height: 175px;
+  }
 
 /* https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
     .fa-linkedin {
