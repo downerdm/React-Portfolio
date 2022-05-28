@@ -11,8 +11,8 @@ export default function Portfolio() {
   return (
     <div>
       <h2>Portfolio</h2>
-      <div className = "card-columns">
-      <div class="card flexcard border-dark mb-10">
+      <div className = "card-columns samples">
+      <div class="card flexcard border-dark mb-10 samples">
           <h5>Find-A-Doc</h5>
       <div>
           <img src={FindADoc} alt="" />

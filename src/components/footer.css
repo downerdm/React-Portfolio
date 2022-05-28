@@ -1,25 +1,4 @@
-.footer {
-    background-color: darkgray !important;
-      height: 175px;
+footer {
+  text-decoration-color: whitesmoke;  
+  background-color: darkgray;
   }
-
-/* https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
-    .fa-linkedin {
-    background: black;
-    color: white;
-    }
-
-/* https://www.w3schools.com/howto/howto_css_social_media_buttons.asp */
-    .fa-instagram {
-    background: black;
-    color: white;
-    }
-
-/* Wraps the work sample elements when resizing viewport */
-@media screen and (max-width: 768px) {
-    .samples {
-    flex-direction: column !important;
-    flex-wrap: wrap;
-
-    }
-}
