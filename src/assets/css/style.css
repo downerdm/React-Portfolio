@@ -44,6 +44,10 @@ h5 {
     padding:0px;
 }
 
+div a {
+    text-align: center;
+}
+
 .technology {
     text-align:center;
     font-size: 20px;
