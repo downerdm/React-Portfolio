@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.6958cec1.css",
+    "main.js": "/React-Portfolio/static/js/main.42ce82e4.js",
+    "static/media/SchoolPic.JPG": "/React-Portfolio/static/media/SchoolPic.29dc513007d217dd12ba.JPG",
+    "static/media/DayPlanner.png": "/React-Portfolio/static/media/DayPlanner.d558f00112a1f0cca568.png",
+    "static/media/FindADoc.png": "/React-Portfolio/static/media/FindADoc.7c7e2c448925665e0400.png",
+    "static/media/RegExGist_DMD.png": "/React-Portfolio/static/media/RegExGist_DMD.8c40904601341ffd169c.png",
+    "static/media/RedditDataDive.png": "/React-Portfolio/static/media/RedditDataDive.d10a016df86eefc664f5.png",
+    "static/media/DownerResume_2022.pdf": "/React-Portfolio/static/media/DownerResume_2022.9348644990eff58c41a4.pdf",
+    "static/media/5DayWeather.png": "/React-Portfolio/static/media/5DayWeather.2bd5138d9cce07bcbcad.png",
+    "static/media/PwdGen_DMD.png": "/React-Portfolio/static/media/PwdGen_DMD.e3cbc8d61b639b84ce25.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.6958cec1.css.map": "/React-Portfolio/static/css/main.6958cec1.css.map",
+    "main.42ce82e4.js.map": "/React-Portfolio/static/js/main.42ce82e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6958cec1.css",
+    "static/js/main.42ce82e4.js"
+  ]
+}
