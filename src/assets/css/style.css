@@ -90,10 +90,15 @@ div a {
     background-color: white;
 }
 
+/* .card-rows {
+    flex-wrap: wrap;
+    flex-direction: row;
+} */
+
 /* Wraps the work sample elements when resizing viewport */
 @media screen and (max-width: 768px) {
     .samples {
-    flex-direction: column !important;
+    flex-direction: row !important;
     flex-wrap: wrap;
 
     }

@@ -5,14 +5,15 @@ import DayPlanner from '../../assets/images/DayPlanner.png';
 import FiveDayWeather from '../../assets/images/5DayWeather.png';
 import PasswordGenerator from '../../assets/images/PwdGen_DMD.png';
 import RegExGist from '../../assets/images/RegExGist_DMD.png';
-import '../../assets/css/style.css'
+import "../../assets/css/style.css"
 
 export default function Portfolio() {
   return (
     <div>
       <h2>Portfolio</h2>
-      <div className = "card-columns" direction="horizontal">
-      <div class="card flexcard border-dark mb-10 samples">
+      <div class = "container" >
+      <div class = "row">
+      <div className="card flexcard border-dark mb-10 samples col-5">
           <h5>Find-A-Doc</h5>
       <div>
           <img src={FindADoc} alt="" />
@@ -21,8 +22,8 @@ export default function Portfolio() {
       </div>
     </div>
 
-     <div class="card flexcard border-dark mb-10">
-          <h5 class="card-title">Reddit Data Dive</h5>
+     <div className="card flexcard border-dark mb-10 col-5">
+          <h5 className="card-title">Reddit Data Dive</h5>
       <div>
         <img src={RedditDataDive} alt="" />
         <a href="https://downerdm.github.io/reddit-data-dive_dmd/" class="card-link cardLinkCustom">Deployed App</a>
@@ -30,7 +31,7 @@ export default function Portfolio() {
       </div>
     </div>
   
-    <div class="card flexcard border-dark mb-10">
+    <div class="card flexcard border-dark mb-10 col-5">
           <h5 class="card-title">Day Planner</h5>
        <div>
         <img src={DayPlanner} alt="" />
@@ -39,7 +40,7 @@ export default function Portfolio() {
        </div>
       </div>
       
-      <div class="card flexcard border-dark mb-10">
+      <div class="card flexcard border-dark mb-10 col-5">
           <h5 class="card-title">5-Day Weather Forecast</h5>
         <div>
           <img src={FiveDayWeather} alt="" />
@@ -48,7 +49,7 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div class="card flexcard border-dark mb-10">
+      <div class="card flexcard border-dark mb-10 col-5">
           <h5 class="card-title">Password Generator</h5>
         <div>
           <img src={PasswordGenerator} alt="" />
@@ -57,13 +58,14 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div class="card flexcard border-dark mb-10">
+      <div class="card flexcard border-dark mb-10 col-5">
           <h5 class="card-title">Regex Gist</h5>
         <div>
           <img src={RegExGist} alt="" />
           <a href="https://gist.github.com/downerdm/54d4c68fcd30caeb2639f0f8c514b431" class="card-link cardLinkCustom">GitHub Gist</a>
         </div>
       </div>
+    </div>
     </div>
     </div>
   );

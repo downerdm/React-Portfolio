@@ -3,7 +3,6 @@ import '../../assets/css/style.css';
 
 export default function Contact() {
   return (
-    <body>
     <div>
       <h2>Contact Me</h2>
       <div>
@@ -30,6 +29,5 @@ export default function Contact() {
     
       </div>
     </div>
-    </body>
   );
 }
