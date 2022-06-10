@@ -24,4 +24,4 @@ const validateSignUp = (email, password, alert) => {
   return errMsg;
 };
 
-export default signUpCheck;
+export default validateSignUp;

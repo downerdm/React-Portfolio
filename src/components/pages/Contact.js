@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../assets/css/style.css';
-import signUpCheck from '../../utils/checks';
+import validateSignUp from '../../utils/checks';
 
 export default function Contact() {
   return (
